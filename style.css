@@ -1,0 +1,133 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background: floralwhite;
+}
+header {
+	padding: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+h2 {
+	text-align: center;
+	padding: 20px;
+	color: black;
+    text-decoration: underline;
+    text-decoration-color: black;
+    transition: text-decoration-color 0.3s ease;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 5px;
+}
+
+h2:hover {
+    text-decoration-color: transparent;
+}
+
+ul {
+	display: flex;
+}
+
+li {
+	border: 1px solid black;
+	width: calc(100vw/ 3);
+	height: 45px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+article {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+section {
+	width: 600px;
+	height: 700px;
+	border: 1px solid black;
+	margin: 30px;
+}
+div {
+	text-align: center;
+}
+
+p{
+	font-size: 19px;
+	line-height: 1.6;
+	word-break: keep-all;
+	letter-spacing: 1px;
+	padding: 20px;
+	text-align: center;
+}
+
+img {
+	padding: 10px;
+}
+.bottom {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	background-color: rgba(255, 250, 240, 0.7);
+	
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+}
+.link {
+	text-decoration: none;
+	color: black;
+	transition: color 0.3s;
+	display: inline-block;
+	border: 1px solid transparent;
+}
+
+.link:hover {
+	color:gray;
+	border-color: black;
+}
+
+#scrollToTopBtn {
+    position: fixed;
+    bottom: 60px;
+    right: 10px;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    text-decoration: none;
+    color: black;
+}
+
+#scrollToTopBtn:hover {
+    background-color: gray;
+}
+@media screen and (max-width: 900px){
+section {
+	width: 380px;
+	height: 830px;
+	border: 1px solid black;
+	margin: 50px;
+}
+.th {
+	height: 760px;
+
+}
+
